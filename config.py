@@ -12,5 +12,5 @@ class Config(object):
     # MAIL_USE_TLS = os.environ.get('MAIL_USE_TLS') is not None
     MAIL_USE_SSL = True
     MAIL_USERNAME = os.environ.get('MAIL_USERNAME') or "dhillonabhay2@gmail.com"
-    MAIL_PASSWORD = os.environ.get('MAIL_PASSWORD') or "Iphone6s"
+    MAIL_PASSWORD = os.environ.get('MAIL_PASSWORD') or "Iphone6s@"
     ADMINS = ['dhillonabhay2.com']
