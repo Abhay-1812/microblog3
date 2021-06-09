@@ -19,7 +19,6 @@ from app.forms import ResetPasswordRequestForm
 from app.email import send_password_reset_email
 from app.forms import ResetPasswordForm
 from app.forms import AddCommentForm
-from guess_language import guess_language
 
 @app.route('/login', methods=['GET', 'POST'])
 def login():
